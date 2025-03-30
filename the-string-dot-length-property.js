@@ -25,6 +25,14 @@ let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
+// Determine the lenth of stringOne and assign it to lengthOne
+lengthOne = stringOne.length;   // 15
+console.log("The length of '" + stringOne + "' is: " + lengthOne); // Output: 15
 
+// Determine the length of stringTwo and assign it to lengthTwo
+lengthTwo = stringTwo.length;   // 10
+console.log("The length of '" + stringTwo + "' is: " + lengthTwo); // Output: 10
 
-
+// Determine the length of stringThree and assign it to lengthThree
+lengthThree = stringThree.length; // 0 (since it's an empty string)
+console.log("The length of '" + stringThree + "' is: " + lengthThree); // Output: 0
